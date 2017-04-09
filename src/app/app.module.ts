@@ -4,10 +4,17 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { ConversorPipe } from './pipes/conversor.pipes';
+
+
+//input 
+import {InputComponent} from './input/input.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    InputComponent,
+    ConversorPipe
   ],
   imports: [
     BrowserModule,
